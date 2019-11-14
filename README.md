@@ -7,7 +7,7 @@ This example shows how to create a workflow that triggers a promotional email ab
 
 - A [Zenaton](https://www.zenaton.com/) account, API id and API key 
 - An [OpenWeatherMap](https://openweathermap.org/api) API key
-- A [Mailchimp](https://www.google.com/gmail/) account
+- A [Mailchimp](https://mailchimp.com/) account
 
 ## Workflow Logic
 
