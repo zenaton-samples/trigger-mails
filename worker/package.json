@@ -1,0 +1,10 @@
+{
+    "name": "trigger-mails",
+    "version": "1.0.0",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^8.1.0",
+      "handlebars": "^4.4.3",
+      "zenaton": "^0.7.1"
+    }
+  }
