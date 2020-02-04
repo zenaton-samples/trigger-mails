@@ -28,7 +28,7 @@
     },
     "ZENATON_LISTEN_ARGS": {
       "description": "The Zenaton Agent listen args",
-      "value": "--boot=boot.js --node",
+      "value": "--boot=boot.js",
       "required": true
     },
     "OPEN_WEATHER_API_KEY": {
