@@ -30,6 +30,14 @@
       "description": "The Zenaton Agent listen args",
       "value": "--boot=boot.js --node",
       "required": true
+    },
+    "OPEN_WEATHER_API_KEY": {
+      "description": "The Open Weather API Key (find it on https://openweathermap.org/appid)",
+      "required": true
+    },
+    "SENDGRID_API_KEY": {
+      "description": "The Sendgrid API KEY (find it on https://app.sendgrid.com/guide/integrate/langs/nodejs)",
+      "required": true
     }
   },
   "formation": {
