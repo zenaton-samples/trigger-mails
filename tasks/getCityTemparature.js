@@ -1,3 +1,5 @@
+const axios = require("axios");
+
 // Get your API key here: https://openweathermap.org/appid
 const { OPEN_WEATHER_API_KEY } = process.env;
 
