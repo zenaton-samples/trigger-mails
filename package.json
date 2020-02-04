@@ -1,0 +1,14 @@
+{
+  "name": "trigger-mails",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/zenaton-samples/trigger-mails.git",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "handlebars": "^4.4.3",
+    "zenaton": "^0.8.0"
+  },
+  "scripts": {
+    "postinstall": "cp -n .env.sample $INIT_CWD/.env || :"
+  }
+}

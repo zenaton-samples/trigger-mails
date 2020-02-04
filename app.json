@@ -1,0 +1,49 @@
+{
+  "name": "Zenaton Trigger emails",
+  "description": "Zenaton workflow example of triggering emails",
+  "repository": "https://github.com/zenaton-samples/trigger-mails",
+  "logo": "https://avatars0.githubusercontent.com/u/26751818?s=200&v=4",
+  "keywords": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "zenaton/heroku-buildpack-zenaton"
+    }
+  ],
+  "env": {
+    "ZENATON_APP_ID": {
+      "description": "The Zenaton Application ID (find it on https://app.zenaton.com/api)",
+      "required": true
+    },
+    "ZENATON_API_TOKEN": {
+      "description": "The Zenaton API token (find it on https://app.zenaton.com/api)",
+      "required": true
+    },
+    "ZENATON_APP_ENV": {
+      "description": "The Zenaton environment",
+      "value": "dev",
+      "required": true
+    },
+    "ZENATON_LISTEN_ARGS": {
+      "description": "The Zenaton Agent listen args",
+      "value": "--boot=boot.js --node",
+      "required": true
+    },
+    "OPEN_WEATHER_API_KEY": {
+      "description": "The Open Weather API Key (find it on https://openweathermap.org/appid)",
+      "required": true
+    },
+    "SENDGRID_API_KEY": {
+      "description": "The Sendgrid API KEY (find it on https://app.sendgrid.com/guide/integrate/langs/nodejs)",
+      "required": true
+    }
+  },
+  "formation": {
+    "zenatonworker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
