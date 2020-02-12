@@ -6,7 +6,7 @@ module.exports.handle = function*({ city, days, minTemp, minRep, recipient }) {
   let repCount = 0;
   do {
     //Check the temperature of the city via openweathermap API.
-    const response = yield this.run.task("getCityTemparature", city);
+    const response = yield this.run.task("getCityTemperature", city);
     //If the temperature is under minTemp degrees (45 degrees fahrenheit) for at least minRep(3 days),
     if (response.main.temp < minTemp) {
       repCount++;
