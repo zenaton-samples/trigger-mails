@@ -19,7 +19,7 @@ module.exports.handle = function*({ city, days, minTemp, minRep, recipient }) {
   } while (repCount < minRep && days > 0);
 
   if (repCount === minRep) {
-    // trigger an email campaign on sendgrid based on the weather.
+    // Trigger an email campaign on Sendgrid based on the weather.
     yield this.run.task("SendWeatherCampaign", {
       city,
       recipient
