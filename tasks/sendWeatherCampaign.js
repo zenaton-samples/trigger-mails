@@ -6,7 +6,7 @@ const { SENDGRID_API_KEY } = process.env;
 module.exports.handle = async function({ city, recipient }) {
   const body = `Hey Freezing in ${
     city.split(",")[0]
-  }? It's the right time to plan vacations in Bahamas! \n`;
+  }? It's time to plan your vaction in the Bahamas! \n`;
 
   await axios.post(
     "https://api.sendgrid.com/v3/mail/send",
