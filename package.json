@@ -4,7 +4,7 @@
   "license": "MIT",
   "repository": "https://github.com/zenaton-samples/trigger-mails.git",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "handlebars": "^4.4.3",
     "zenaton": "^0.8.0"
   },
