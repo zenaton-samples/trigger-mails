@@ -5,7 +5,7 @@
   "repository": "https://github.com/zenaton-samples/trigger-mails.git",
   "dependencies": {
     "axios": "^0.19.2",
-    "handlebars": "^4.4.3",
+    "handlebars": "^4.7.7",
     "zenaton": "^0.8.0"
   },
   "scripts": {
